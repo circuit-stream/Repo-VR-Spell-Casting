@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7597965061672404161}
-  m_LocalRotation: {x: -0.000000059604645, y: 2.512148e-15, z: 2.512148e-15, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -170,7 +170,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.8
+      scalar: 0.63
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -224,7 +224,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0.7311321, g: 0.93226993, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -286,7 +286,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 0.11
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -748,7 +748,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.18
+      value: 0.0001
       mode: 0
       spread: 0
       speed:
@@ -2628,7 +2628,7 @@ ParticleSystem:
     strength:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.08
+      scalar: 0.34
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -2785,7 +2785,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     separateAxes: 0
-    frequency: 0.5
+    frequency: 1.98
     damping: 1
     octaves: 1
     octaveMultiplier: 0.5
@@ -3560,7 +3560,7 @@ ParticleSystem:
     serializedVersion: 3
     type: 1
     collisionMode: 0
-    colliderForce: 50
+    colliderForce: 200
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
@@ -4711,7 +4711,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -4770,7 +4770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_myParticleSystem: {fileID: 7597965061672404173}
   m_rb: {fileID: 8057848604537624821}
-  m_shootForce: 500
+  m_shootForce: 2500
 --- !u!54 &8057848604537624821
 Rigidbody:
   m_ObjectHideFlags: 0
